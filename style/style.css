@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;500&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html{
+   scroll-behavior: smooth;
+}
+li,a,button{
+   
+   font-family:"Montserrat",sans-serif ;
+   font-weight: 500;
+   font-size: small;
+   text-decoration: none;
+   color: white;
+}
+header{
+   display:flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 10px;
+   background-color: black;
+}
+.nav-links{
+   list-style: none;
+}
+.nav-links li {
+display:inline-block;
+padding: 0px 20px;
+}
+.nav-links li a{
+   transition: all 0.3s ease 0s;
+}
+.nav-links li a :hover{
+color: aquamarine;
+}
+button{
+   padding: 8px;
+   background-color: rgba(120, 117, 117, 0.564);
+   border: none;
+   border: radius 40px; 
+   cursor: pointer;
+   transition: all 0.3s ease 0s;
+}
+button{
+   background-color: rgba(120, 117, 117, 0.550);
+
+}
+#sec-one{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px ;
+    background-color: black;
+}
+.sec-two {
+   display: flex;
+   justify-content: space-around;
+   padding: 10px;
+   background-color: silver;
+   font-weight: 600;
+   font-size: medium;
+}
+.sec-two h2{
+font-size:x-large;
+}
+.fa-1,.fa-2,.fa-3,.fa-4{
+   align-items: center;
+   color: brown;
+}
+.fa-file{
+   font-size: xx-large;
+   color: bisque;
+}
+.fa-hand-pointer{
+   font-size: xx-large;
+   color:green;
+}
+.fa-envelope{
+   font-size: xx-large;
+   color:dark purple;
+}
+.fa-check{
+   font-size: xx-large;
+   color:dark darkgoldenrod;
+}
+.sec-three{
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   background-color: silver;
+   font-weight: 600;
+   font-size: medium;
+}
+.sec-four{
+   padding: 10px;
+   display: flex;
+   justify-content: space-around;
+   background-color: azure;
+}
+.sec-five{
+   padding: 20px;
+   display: flex;
+   justify-content: space-around;
+   background-color: azure;
+}
+.sec-five img{
+   height: 320px;
+   width: 40%;
+  
+}
+
+.sec-six{
+   display: flex;
+   justify-content: space-around;
+   background-color: azure;
+}
+.sec-six img{
+   height: 320px;
+   width: 48%;
+}
+.sec-seven{
+   padding: 20px;
+   display: flex;
+   justify-content: space-around;
+   background-color: rgb(79, 202, 239);
+   
+}
+.sec-ett{
+   padding: 10px;
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   background-color: whitesmoke;
+}
+
+
+
+
+
+   
+  
+
+
+
+

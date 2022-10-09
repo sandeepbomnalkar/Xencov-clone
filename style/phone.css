@@ -1,0 +1,25 @@
+header{
+    width: 100vh;
+    font-size: 0.2rem;
+    justify-content: space-between;
+}
+header p,a,button{
+    font-size: medium;
+}
+#sec-one{
+    width: 100vh;
+}
+.sec-two,.sec-three,.sec-four,.sec-five,.sec-six,.sec-seven,.sec-ett,.sec-nine{
+    width: 100vmax;
+}
+.sec-seven,.sec-ett{
+    font-size: medium;
+    padding: 5px;
+}
+.sec-four,.sec-five,.sec-six,.sec-seven,.sec-ett{
+    padding: 5px;
+}
+.sec-four{
+    width: 100vh;
+    height:fit-content;
+}
